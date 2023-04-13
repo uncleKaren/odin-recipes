@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: yellow;
+}
+
+.grid_block{
+    background-color: aqua;
+    width: 10px;
+    height: 10px;;
+}
