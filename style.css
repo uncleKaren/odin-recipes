@@ -4,13 +4,23 @@ body{
 }
 
 .container{
-    display: grid;
-    grid-template-rows: repeat(16, 30px);
-    grid-template-columns: repeat(16, 30px);
-    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.grid_element{
+.grid_container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+}
+
+.item{
     background-color: aqua;
 }
 
+.item-hovered{
+    background-color: pink;
+}
